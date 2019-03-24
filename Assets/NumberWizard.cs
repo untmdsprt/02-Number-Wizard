@@ -29,13 +29,13 @@ public class NumberWizard : MonoBehaviour
         }
 
         //Detect when the up arrow key is pressed down
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        else if (Input.GetKeyDown(KeyCode.UpArrow))
         {   
             Debug.Log("UpArrow key was pressed.");
         }
 
         //Detect when the down arrow key is pressed down
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        else if (Input.GetKeyDown(KeyCode.DownArrow))
         {    
             Debug.Log("DownArrow key was pressed.");
         }
